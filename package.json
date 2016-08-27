@@ -1,6 +1,6 @@
 {
-  "name": "Node.js SMTP API",
-  "version": "2.5.0",
+  "name": "nodejs-smtp-api",
+  "version": "0.0.1",
   "description": "A simple node.js API to send mails (through smtp)",
   "main": "",
   "repository": {
