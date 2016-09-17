@@ -12,7 +12,15 @@ module.exports.isset = function isset (variable) {
 		if ( typeof variable != 'undefined' ) return true;
 		return false;
 	}
-
+module.exports.tokenTest = function tokenTest (header) {
+	//test if verified token
+		if ( isset(header) && isset(header.authorization) ) {
+			if ( header.authorization == 'hehe' ) {
+				return true;
+			}
+			return false
+		} return false
+	}
 
 module.exports.dataVerify = function dataVerify (req) {
 
